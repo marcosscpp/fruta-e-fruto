@@ -10,7 +10,7 @@
 
 .receita {
 	background: #fdfdfd;
-	border: 1px solid rgba(0,0,0,.125);
+	border: 2px solid rgba(0,0,0,.125);
 	border-color: #bf1515;
 	border-radius: 0.25rem;
     display: flex;
@@ -18,7 +18,6 @@
 }	
 
 .receita__imagem {
-	border-radius: 0.25rem;
 	height: 200px;
 }
 
