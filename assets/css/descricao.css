@@ -1,0 +1,70 @@
+.banner {
+	position: relative;
+}
+
+.banner__imagem {
+	background: url("../img/banner.jpg") no-repeat center / cover;
+	height: 89vh;
+	width: 100%;
+}
+
+.banner__titulo {
+	color: #d3d3d3;
+	font-family: Pacifico, cursive;
+	left: 50%;
+	position: absolute;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.sobre {
+	padding: 3rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sobre__titulo {
+	color: #bf1515;
+	font-family: Pacifico, cursive;
+	font-size: 3.1875rem;
+}
+
+.sobre__subtitulo {
+	color: #595959;
+	font-family: Roboto;
+	font-weight: 100;
+	width: 80%;
+}
+
+@media screen and (min-width: 0) {
+	.banner {
+		font-size: 2.5rem;
+	}
+
+	.sobre__titulo {
+		font-size: 2rem;
+	}
+
+	.sobre__subtitulo {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.banner {
+		font-size: 5.0625rem;
+	}
+
+	.sobre__titulo {
+		font-size: 3.1875rem;
+	}
+
+	.sobre__subtitulo {
+		font-size: 1.75rem;
+	}
+}

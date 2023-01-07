@@ -1,0 +1,12 @@
+.rodape {
+	background: #C4C4C4;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	text-transform: lowercase;
+	padding: 1.5625rem 5rem;
+}
+
+.email {
+	text-decoration: underline;
+}
