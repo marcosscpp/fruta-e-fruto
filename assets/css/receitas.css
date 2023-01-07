@@ -19,6 +19,7 @@
 
 .receita__imagem {
 	border-radius: 0.25rem 0.25rem 0 0;
+	border: white solid 2px;
 	height: 200px;
 }
 
