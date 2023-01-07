@@ -18,6 +18,7 @@
 }	
 
 .receita__imagem {
+	border-radius: 0.25rem 0.25rem 0 0;
 	height: 200px;
 }
 
